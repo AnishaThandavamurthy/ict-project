@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+
+
+
+
+
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <header>
+            
+        <div class="date">
+            Sep 13, 2024 10:26 AM
+        </div>
+        <div class="logo"></div>
+            
+            <img src="/static/kp.jpg" alt="Kannada Prabha Logo">
+        </div>
+        <div class="social-icons">
+            <a href="#"><img src="/static/f.jpg" alt="Facebook"></a>
+            <a href="#"><img src="/static/t.jpg" alt="Twitter"></a>
+            <a href="#"><img src="/static/i.jpg" alt="Instagram"></a>
+            <a href="#"><img src="/static/y.jpg" alt="YouTube"></a>
+            <a href="#"><img src="/static/w.jpg" alt="Whatsapp"></a>
+        </div>
+    </header>
+    <nav class="navbar" style="background-color: #e3f2fd;">
+        <a href="#">ರಾಜ್ಯ</a>
+        <a href="#">ದೇಶ</a>
+        <a href="#">ರಾಜಕೀಯ</a>
+        <a href="#">ಕ್ರಿಕೆಟ್</a>
+        <a href="#">ವಿದೇಶ</a>
+        <a href="#">ವಾಣಿಜ್ಯ</a>
+        <a href="#">ಸಿನಿಮಾ</a>
+        <a href="#">ಕ್ರೀಡೆ</a>
+        <a href="#">ಅಂಕಣಗಳು</a>
+        <a href="#">ವಿಶೇಷ</a>
+        <a href="#">ವೆಬ್ ಸ್ಟೋರೀಸ್</a>
+        <a href="#">ವಿಡಿಯೋ</a>
+        <a href="#">ಆರೋಗ್ಯ</a>
+        <a href="#">ಅಡುಗೆ</a>
+        <a href="#">...</a>
+      </nav>
+      <br><br>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?size=626&ext=jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="data:image/jpeg;base64,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" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br><br><br>
+      <table border="2" cellpadding="3" cellspacing="3" >
+        <tr>
+            <td><div class="card" style="width: 18rem;">
+            <img src="https://png.pngtree.com/background/20240122/original/pngtree-d-render-of-isolated-white-background-premium-family-suv-car-in-picture-image_7382864.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="Mahindra">Rs.50000</h5>
+              <p class="card-text">Family car</p>
+              <a href="#" class="btn btn-primary">ADD TO CART</a>
+            </div>
+          </div>
+        </td>
+          <td><div class="card" style="width: 18rem;">
+          
+            <img src="https://i.pinimg.com/originals/9d/54/ff/9d54ff0b722180b73da61ca9f68f9bf5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="Swift">Rs.39000</h5>
+              <p class="card-text">user friendly</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </td>
+          <td><div class="card" style="width: 18rem;">
+            <img src="https://imgd.aeplcdn.com/370x208/n/cw/ec/128413/scorpio-exterior-right-front-three-quarter-47.jpeg?isig=0&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="Mahindra">Rs.70000</h5>
+              <p class="card-text">scorpio</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div></td>
+          <td>
+            <div class="card" style="width: 18rem;">
+            <img src="https://www.pngarts.com/files/1/Safari-Car-PNG-Pic.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="Mahindra">Rs.85000</h5>
+              <p class="card-text">Safari</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="card" style="width: 18rem;">
+                <img src="https://png.pngtree.com/background/20240122/original/pngtree-d-render-of-isolated-white-background-premium-family-suv-car-in-picture-image_7382864.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="gadgets">Rs.50000</h5>
+                  <p class="card-text">Family car</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </td>
+              <td>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://png.pngtree.com/background/20240122/original/pngtree-d-render-of-isolated-white-background-premium-family-suv-car-in-picture-image_7382864.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="gadgets">Rs.50000</h5>
+                      <p class="card-text">Family car</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+              </td>
+              
+            
+            <td>
+                <div class="card" style="width: 18rem;">
+                <img src="https://png.pngtree.com/background/20240122/original/pngtree-d-render-of-isolated-white-background-premium-family-suv-car-in-picture-image_7382864.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="gadgets">Rs.50000</h5>
+                  <p class="card-text">Family car</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </td>
+            <td>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://png.pngtree.com/background/20240122/original/pngtree-d-render-of-isolated-white-background-premium-family-suv-car-in-picture-image_7382864.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="gadgets">Rs.50000</h5>
+                      <p class="card-text">Family car</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </td>
+
+              
+          </tr>
+            
+        
+      </table>
+
+    
+ 
+    
+
+
+
+    
+</body>
+</html>

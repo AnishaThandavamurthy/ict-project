@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body><h3>Users</h3>
+    <table border="2"cellspacing="5" cellpadding="5" align="center">
+       <thead>
+        <th>Id</th>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Age</th>
+        <th>#</th>
+       </thead> 
+       {% for data in users %}
+       <tbody>
+        <td>{{data.id}}</td>
+        <td>{{data.first_name}}</td>
+        <td>{{data.last_name}}</td>
+        <td>{{data.age}}</td>
+        <td><a href="/delete/{{data.id}}" type="button">Delete user</a></td>
+       </tbody>
+       {% endfor %}
+    </table>
+    <a href="/add_data">Create User </a>
+    
+</body>
+</html>

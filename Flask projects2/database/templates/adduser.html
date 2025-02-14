@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add  user</title>
+    <style>
+        
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-left:35%;
+
+        }
+        input{
+            width:290px;
+            height:30px;
+        }
+        button{
+            color:rgb(76, 0, 255);
+            font:black;
+        }
+    </style>
+</head>
+<body>
+    <h3>User form</h3>
+    <form action="/add" method="POST">
+        <label>First name</label>
+        <input type="text" name="first_name" placeholder="first_name..."><br><br>
+        <label>Last name</label>
+        <input type="text" name="last_name" placeholder="last_name..."><br><br>
+        <label>Age</label>
+        <input type="number" name="age" placeholder="age...">
+        <br><br>
+        <button type="submit">Add</button>
+
+    </form>
+</body>
+</html>

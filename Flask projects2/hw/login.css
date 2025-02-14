@@ -1,0 +1,38 @@
+body{
+    padding-left:35%;
+    background-color: antiquewhite;
+
+}
+.container {
+width: 300px;
+height: 500px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.container h1 {
+text-align: center;
+margin-bottom: 20px;
+color: rgb(253, 133, 13);
+}
+input {
+width: 290px;
+height: 30px;
+
+margin-bottom: 10px;
+border: 1px solid rgba(28, 28, 141, 0.297);
+padding: 5px;
+}
+
+button {
+width: 100px;
+height: 35px;
+
+border: 1px solid rgb(58, 128, 160);
+background-color: rgb(210, 74, 74);
+color: white;
+margin-left: 100px;
+margin-bottom: 10px;
+}
